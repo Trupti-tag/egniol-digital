@@ -8,7 +8,7 @@ function UniqueBlueprint() {
       <div className={styles.blueprintsection}>
         {/* <div className={styles.blueprintcontent}> */}
           <div className={styles.title}>
-           What's Your
+           What&apos;s Your
           </div>
           <div className={styles.highlight}>Unique Blueprint?</div>
         {/* </div> */}
