@@ -25,10 +25,10 @@ export default function DigitalGrowth() {
                             height={32}  layout="responsive"  ></Image></div>
                         <div className={styles.rightSection}>
                             <div className="ml-2"><h2 className="ml-2">Range of Services</h2></div>
-                            <div className={styles.p}><p>"We offer a wide range of services tailored to help your business succeed online. Whether you're just getting started or looking to take your digital presence to the next level, we've got you covered."</p></div>
+                            <div className={styles.p}><p>&quot;We offer a wide range of services tailored to help your business succeed online. Whether you&apos;re just getting started or looking to take your digital presence to the next level, we&apos;ve got you covered.&quot;</p></div>
                         </div>
                         <div className={styles.rightSection}>
-                            <div className={styles.p}><p>"Below are the key services we offer. click on any services to learn more about how we can tailor it to fit your business needs. Once you've found what you're looking for, let's chat about how we can make it happen for you."</p></div>
+                            <div className={styles.p}><p>&quot;Below are the key services we offer. click on any services to learn more about how we can tailor it to fit your business needs. Once you&apos;ve found what you&apos;re looking for, let&apos;s chat about how we can make it happen for you.&quot;</p></div>
                         </div>
                     </div>
                 </div>
