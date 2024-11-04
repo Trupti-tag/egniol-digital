@@ -19,7 +19,7 @@ function UniqueBlueprint() {
       <div className={styles.blueprintcontent}>
         
             <div className={styles.text}>
-              "At Egniol, we understand that every business is unique. That's why we don't offer cookie-cutter strategies. Instead, we craft a <b>personalized digital blueprint</b> - a plan that's designed just for your business. We take into account your goals, your market, and your specific challenges to create a strategy that will drive sustainable growth. Whether it's growing your online presence, generating leads, or boosting engagement, we build a <b>blueprint</b> that fits you."</div>
+              &quot;At Egniol, we understand that every business is unique. That&apos;s why we don&apos;t offer cookie-cutter strategies. Instead, we craft a <b>personalized digital blueprint</b> - a plan that&quot;s designed just for your business. We take into account your goals, your market, and your specific challenges to create a strategy that will drive sustainable growth. Whether its growing your online presence, generating leads, or boosting engagement, we build a <b>blueprint</b> that fits you.&quot;</div>
           </div>
       </div>
    </div>
