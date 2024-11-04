@@ -1,0 +1,121 @@
+/* components/Services.module.css */
+.containerMain{
+    margin-top: 6rem !important;
+}
+.row{
+    display: flex;
+    justify-content: right;
+}
+.servicesSection {
+    background-color: #cd84bf;
+    color: black;
+    padding: 1rem 2rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 4.5rem;
+    color: black;
+    text-align: left;
+    font-weight: 700;
+    /* margin-bott: 2rem; */
+  }
+  
+  .servicesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .serviceCard {
+    background-color: #6e4258;
+    padding: 0.5rem 2rem;
+    position: relative;
+    /* max-width: 300px; */
+    flex: 1;
+  }
+.icon {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+    color: black;
+  }
+.iconCard {
+    font-size: 3.8em;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .serviceTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .description {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  
+  .price {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .applyButton {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    width: 70%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .sideButtons {
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    width: 60px;
+    transform: translateY(-50%);
+  }
+  
+  .viewAllButton {
+    background-color: #4a2c2d;
+    color: #d69ccc;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .socialIcons {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .socialButton {
+
+    background-color: #54394c;
+    color: #361e16;
+    border: 1px solid #54323e ;
+    padding: 0.5rem;
+    font-size: 2.7rem;
+    /* border-radius: 50%; */
+    cursor: pointer;
+  }
+
+  .row1{
+    width: 60px;
+    height: 60px;
+    padding: 1rem  1rem;
+    background-color: white;
+  }
+  

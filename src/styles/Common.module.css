@@ -1,0 +1,70 @@
+.row{
+    margin: 0px 0px;
+}
+.button{
+    /* padding: 10px 20px;
+    border-radius: 0%;
+    background-color: white;
+    color: black;
+    align-items: center; */
+    background-color: #ffffff; 
+   align-items: center !important;
+    color: #2e1d1b; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+.button :hover{
+    background-color: white;
+}
+.colWork{
+    background-color: white;
+    width: 100%;
+}
+.uniqueWork{
+    background-color: #8ABAC5;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+.blueprintsection {
+    position: relative;
+    background-color: #3b251c; 
+    padding: 4rem 0;
+    color: #333;
+    text-align: center;
+  }
+.blueprintcontent {
+    background-color: #a5cdd1;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 800px;
+    color: #000;
+  }
+  .highlight {
+    color: #1b4b5a; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+  }
+  .lines {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #f1f1f1; 
+  }
+  
+  .line-1 {
+    left: 25%;
+  }
+  
+  .line-2 {
+    left: 50%;
+  }
+  
+  .line-3 {
+    left: 75%;
+  }
+ 
+  

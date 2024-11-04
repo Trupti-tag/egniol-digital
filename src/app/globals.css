@@ -1,10 +1,12 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  
+  --background: #361E16;
+  --foreground: #ffffff !important;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    
     --background: #0a0a0a;
     --foreground: #ededed;
   }
@@ -14,6 +16,13 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  position: absolute;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color:  #361E16 !important;
+  color: #ffffff !important;
 }
 
 body {
@@ -39,4 +48,32 @@ a {
   html {
     color-scheme: dark;
   }
+}
+/* .vertical-line {
+  position: fixed;
+  top: 0;
+  left: 50%; 
+  width: 2px; 
+  height: 100vh;
+  background-color: #574531; 
+  z-index: 1;
+}
+.vertical-line1 {
+  position: fixed;
+  top: 0;
+  left: 25%; 
+  width: 2px; 
+  height: 100vh;
+  background-color: #574531; 
+  z-index: 1;
+} */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 75% ; 
+  width: 2px;
+  height: 100vh;
+  background-color: #574531;
+  z-index: -1; 
 }

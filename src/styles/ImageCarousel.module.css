@@ -1,0 +1,56 @@
+/* components/HorizontalImageCarousel.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    animation: scrollHorizontal 15s linear infinite;
+    position: relative;
+  }
+  
+  .image {
+    width: 300px; 
+    height: auto;
+    border: 3px solid black;
+    object-fit: cover;
+  }
+  
+  @keyframes scrollHorizontal {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-300px * 3));
+    }
+  }
+  
+  .leftBlur,
+  .rightBlur {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Adjust color and opacity as needed */
+    filter: blur(10px);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .leftBlur {
+    left: 0;
+  }
+  
+  .rightBlur {
+    right: 0;
+  }
+  

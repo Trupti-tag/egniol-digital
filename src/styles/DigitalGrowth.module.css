@@ -1,0 +1,89 @@
+/* components/DigitalGrowth.module.css */
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #bdc471; 
+    padding: 3rem  3rem;
+    color: #333;
+    margin-top: 6rem;
+  }
+  .container2 {
+    margin-top: 6rem;
+}
+.row{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+  .leftSection {
+    flex: 1;
+    color: #000;
+  }
+  
+  .leftSection h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .title{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .text{
+    color:#000;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 14px;
+  }
+  .leftSection p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .rightSection {
+    flex: 1.5;
+    background-color: #ABB074; 
+    padding: 1.5rem;
+    color: #000;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: #333 1px solid;
+  }
+  
+  .rightSection h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .rightSection p {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    text-align: justify;
+    
+  }
+  .row1{
+    width: 60px;
+    height: 60px;
+    padding: 1rem  1rem;
+    background-color: white;
+  }
+  .line {
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    width: 2px;
+    background-color: black;
+    height: 100px;
+  }
+
+  .line-25 {
+    left: 25%;
+  }
+  .line-50 {
+    left: 50%;
+  }

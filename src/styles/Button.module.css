@@ -1,0 +1,28 @@
+/* styles/Button.module.css */
+
+.container {
+    
+    width: 100%;
+    background-color: #2e1d1b; 
+    height: 100px; 
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .button {
+    background-color: #ffffff; 
+    color: #2e1d1b; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .col-3 {
+      width: 25%;
+    }
+  }
+  
